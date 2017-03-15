@@ -1,4 +1,4 @@
-var words = document.querySelectorAll("h1, h2, h3");
+var words = document.getElementById("#main").querySelectorAll("h1, h2, h3");
 var button = document.getElementById("#button");
 
 button.onclick = function(e) {

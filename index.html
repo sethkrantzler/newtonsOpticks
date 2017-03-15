@@ -3,7 +3,7 @@
 	<head>
 		<meta charset=utf-8>
 
-		<title>Text Test</title>
+		<title>Newton's Opticks</title>
 		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<style>
@@ -22,6 +22,11 @@
 				margin-top: 30px;
 				margin-bottom: 30px;
 			}
+			hr.solid {
+				width: 80%;
+				border-top: 1px solid black;
+				text-align: center;
+			}
 			hr.style17 {
 				width: 80%;
 				border-top: 1px solid #8c8b8b;
@@ -33,7 +38,7 @@
 				position: relative;
 				top: -14px;
 				padding: 0 10px;
-				background: #f0f0f0;
+				background: #f3eee3;
 				color: #8c8b8b;
 				font-size: 18px;
 				-webkit-transform: rotate(60deg);
@@ -46,9 +51,22 @@
 			.visualization{
 				text-align: center;
 			}
+			.titleDiv{
+				margin-left: 25%;
+				width: 50%;
+				border: 2px solid black;
+				text-align: center;
+				display: block;
+			}
+			.buttonHolder{
+				text-align: right;
+			}
+			.main{
+				text-align: left;
+			}
 			button {
-				position: absolute;
-				right: 20px;
+				position: relative;
+				right: 140px;
 				margin-left: 15px;
 			  color: white;
 				font-size: 25px;
@@ -150,6 +168,31 @@
 				left: 1px;
 			}
 
+			.titleDiv h1{
+				margin-top: 5px;
+				font-color: black !important;
+				font-size: 64px;
+				letter-spacing: 5px;
+			}
+			.titleDiv h2{
+				margin-top: 8px;
+				font-color: black !important;
+				font-size: 48px;
+				letter-spacing: 5px;
+			}
+			.titleDiv h3{
+				margin-top: 10px;
+				font-color: black !important;
+				font-size: 32px;
+				letter-spacing: 5px;
+			}
+			.titleDiv p{
+				margin-top: 10px;
+				font-color: black !important;
+				font-size: 22px;
+				letter-spacing: 5px;
+			}
+
 
 
 		</style>
@@ -159,8 +202,41 @@
 
 	<body>
 
-		<button id="#button"><span class="glyphicon glyphicon-tint"></span></button>
-		<div id="#main" class="main">
+		<div class="titleDiv">
+			<h1>OPTICKS:</h1>
+			<br>
+			<h3>OR, A</h3>
+			<br>
+			<h1>TREATISE</h1>
+			<br>
+			<h3>OF THE</h3>
+			<br>
+			<h2><i>Reflections</i> , <i>Refractions</i> ,</h2>
+			<br>
+			<h2><i>Inflections</i> and <i>Colours</i></h2>
+			<br>
+			<h3>OF</h3>
+			<br>
+			<h1>LIGHT.</h1>
+			<hr class="solid">
+			<h3><i>The Third Edition, Corrected</i></h3>
+			<hr class="solid">
+			<h2>By Sir Isaac Newton, Knt.</h2>
+			<br>
+			<br>
+		</div>
+
+		<hr class="solid">
+
+		<div class="main">
+			Hey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey HeyHey Hey
+		</div>
+
+		<hr class="style17">
+
+		<div class="buttonHolder">
+			<button id="#button"><span class="glyphicon glyphicon-tint"></span></button>
+			<div id="#main" class="main"></div>
 		</div>
 
 		<hr class="style17">
