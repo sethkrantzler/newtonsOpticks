@@ -22,6 +22,6 @@ var sortedligDict = getSortedKeys(ligDict);
 var screen = document.getElementById('#lig');
 var fontSize;
 for (var i = 0; i < sortedligDict.length; i++){
-  fontSize = (sortedValues[i]/742)*350 + 16;
+  fontSize = (sortedValues[i]/denom)*200 + 16;
   screen.innerHTML+= "<h4 style='font-size:" + fontSize + "px" + "'>" + sortedligDict[i] + "</h4>";
 }
