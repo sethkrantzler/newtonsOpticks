@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+
+		<title>Text Test</title>
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style>
+			body{
+				font-family: 'EB Garamond', serif;
+				font-variant-ligatures: historical-ligatures;
+				background: linear-gradient(#f3eee3, #F1F1D4)
+			}
+			.fade {
+	    	opacity: 1;
+	    	-webkit-transition: opacity .15s linear;
+	    	-o-transition: opacity .15s linear;
+	    	transition: opacity .15s linear;
+			}
+			div {
+				margin-top: 30px;
+				margin-bottom: 30px;
+			}
+			hr.style17 {
+				width: 80%;
+				border-top: 1px solid #8c8b8b;
+				text-align: center;
+			}
+			hr.style17:after {
+				content: '§';
+				display: inline-block;
+				position: relative;
+				top: -14px;
+				padding: 0 10px;
+				background: #f0f0f0;
+				color: #8c8b8b;
+				font-size: 18px;
+				-webkit-transform: rotate(60deg);
+				-moz-transform: rotate(60deg);
+				transform: rotate(60deg);
+			}
+			.visualization{
+				text-align: center;
+			}
+			button {
+				position: absolute;
+				right: 20px;
+				margin-left: 15px;
+			  color: white;
+				font-size: 25px;
+			  background-color: black;
+			  border: none;
+			  border-radius: 15px;
+			  box-shadow: 0 6px #9a9a9a;
+				outline:0;
+			}
+
+			button:hover,
+			button.hover {
+			  background-color: #ce7272;
+			}
+
+			button:active,
+			button.active {
+				color: black;
+			  background-color: white;
+			  box-shadow: 0 5px #9a9a9a;
+			  transform: translateY(5px);
+			}
+
+			h1{
+				margin: 0px auto;
+				margin-right: 5px;
+				color: rgba(0, 0, 0, .25);
+				display: inline-block;
+				font-size: 24px;
+				-webkit-transition: all 0.6s ease;
+				-moz-transition: all 0.6s ease;
+				-o-transition: all 0.6s ease;
+				-ms-transition: all 0.6s ease;
+			}
+			h2{
+				margin: 0px auto;
+				margin-right: 5px;
+				color: rgba(0, 0, 0, .6);
+				display: inline-block;
+				font-size: 24px;
+				-webkit-transition: all 0.6s ease;
+				-moz-transition: all 0.6s ease;
+				-o-transition: all 0.6s ease;
+				-ms-transition: all 0.6s ease;
+
+			}
+			h3{
+				margin: 0px auto;
+				margin-right: 5px;
+				color: rgba(0, 0, 0, 1);
+				display: inline-block;
+				font-size: 24px;
+				-webkit-transition: all 0.6s ease;
+				-moz-transition: all 0.6s ease;
+				-o-transition: all 0.6s ease;
+				-ms-transition: all 0.6s ease;
+
+			}
+			h4{
+				margin: 0px auto;
+				margin-left: 20px;
+				margin-right: 20px;
+				color: black;
+				display: inline-block;
+			}
+			.header{
+				text-align: center;
+			}
+			h1.normal{
+				-webkit-transition: all 0.6s ease;
+				-moz-transition: all 0.6s ease;
+				-o-transition: all 0.6s ease;
+				-ms-transition: all 0.6s ease;
+			}
+			h2.normal{
+				-webkit-transition: all 0.6s ease;
+				-moz-transition: all 0.6s ease;
+				-o-transition: all 0.6s ease;
+				-ms-transition: all 0.6s ease;
+			}
+			h3.normal{
+				-webkit-transition: all 0.6s ease;
+				-moz-transition: all 0.6s ease;
+				-o-transition: all 0.6s ease;
+				-ms-transition: all 0.6s ease;
+			}
+			.normal{
+				color: black !important;
+				font-size: 24px !important;
+			}
+			.main{
+				margin-top: 20px;
+				margin-left: 300px;
+				margin-right: 300px;
+			}
+			.glyphicon{
+				position: relative;
+				top: 4px;
+				left: 1px;
+			}
+
+
+
+		</style>
+
+
+	</head>
+
+	<body>
+
+		<button id="#button"><span class="glyphicon glyphicon-tint"></span></button>
+		<div id="#main" class="main">
+		</div>
+
+		<hr class="style17">
+
+		<div>
+			<svg id="cirrus_89" class="cirrusGraph" style="height: 600px; width: 100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g transform="translate(650,300)scale(2,2)"><text text-anchor="middle" data-freq="823" transform="translate(19,24)rotate(90)" style="font-size: 61.3183px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">light</text><text text-anchor="middle" data-freq="657" transform="translate(76,-6)rotate(90)" style="font-size: 57.7374px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">rays</text><text text-anchor="middle" data-freq="597" transform="translate(-85,-19)" style="font-size: 53.8546px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">colours</text><text text-anchor="middle" data-freq="414" transform="translate(-6,-48)" style="font-size: 41.2124px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">red</text><text text-anchor="middle" data-freq="340" transform="translate(-89,31)rotate(0)" style="font-size: 36.2708px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">glass</text><text text-anchor="middle" data-freq="318" transform="translate(106,71)rotate(0)" style="font-size: 34.4834px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">prism</text><text text-anchor="middle" data-freq="303" transform="translate(150,-5)rotate(0)" style="font-size: 31.8617px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">colour</text><text text-anchor="middle" data-freq="291" transform="translate(-104,64)rotate(90)" style="font-size: 31.2798px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">blue</text><text text-anchor="middle" data-freq="299" transform="translate(199,-29)rotate(90)" style="font-size: 30.2669px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">refraction</text><text text-anchor="middle" data-freq="269" transform="translate(-25,24)rotate(90)" style="font-size: 29.5359px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">white</text><text text-anchor="middle" data-freq="245" transform="translate(-62,-3)" style="font-size: 26.6652px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">paper</text><text text-anchor="middle" data-freq="239" transform="translate(-45,34)rotate(90)" style="font-size: 26.1451px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">water</text><text text-anchor="middle" data-freq="231" transform="translate(-129,1)rotate(0)" style="font-size: 23.8918px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">parts</text><text text-anchor="middle" data-freq="225" transform="translate(157,50)rotate(90)" style="font-size: 24.4523px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">bodies</text><text text-anchor="middle" data-freq="222" transform="translate(29,-82)rotate(90)" style="font-size: 23.6378px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">distance</text><text text-anchor="middle" data-freq="215" transform="translate(-64,74)rotate(90)" style="font-size: 23.3168px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">yellow</text><text text-anchor="middle" data-freq="204" transform="translate(-96,-48)" style="font-size: 19.2242px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">air</text><text text-anchor="middle" data-freq="200" transform="translate(-174,20)" style="font-size: 19.8574px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">reflected</text><text text-anchor="middle" data-freq="199" transform="translate(-62,-68)rotate(90)" style="font-size: 19.944px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">rings</text><text text-anchor="middle" data-freq="160" transform="translate(-183,-21)rotate(90)" style="font-size: 12.698px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">little</text><text text-anchor="middle" data-freq="185" transform="translate(130,40)" style="font-size: 18.9174px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">green</text><text text-anchor="middle" data-freq="183" transform="translate(108,89)rotate(0)" style="font-size: 17.5737px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">refracted</text><text text-anchor="middle" data-freq="172" transform="translate(2,57)rotate(90)" style="font-size: 17.7241px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">second</text><text text-anchor="middle" data-freq="166" transform="translate(70,-66)" style="font-size: 16.1452px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">appear</text><text text-anchor="middle" data-freq="190" transform="translate(-15,-76)" style="font-size: 18.2762px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">violet</text><text text-anchor="middle" data-freq="149" transform="translate(-17,82)rotate(0)" style="font-size: 13.1831px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">equal</text><text text-anchor="middle" data-freq="145" transform="translate(-44,91)rotate(90)" style="font-size: 13.1431px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">image</text><text text-anchor="middle" data-freq="144" transform="translate(109,-63)rotate(0)" style="font-size: 12.866px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">eye</text><text text-anchor="middle" data-freq="142" transform="translate(137,-38)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">refrangible</text><text text-anchor="middle" data-freq="140" transform="translate(-78,64)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">like</text><text text-anchor="middle" data-freq="137" transform="translate(-134,63)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">reflexion</text><text text-anchor="middle" data-freq="136" transform="translate(50,23)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">let</text><text text-anchor="middle" data-freq="133" transform="translate(-94,-65)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">inch</text><text text-anchor="middle" data-freq="131" transform="translate(179,19)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">glasses</text><text text-anchor="middle" data-freq="127" transform="translate(-136,-63)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">angle</text><text text-anchor="middle" data-freq="127" transform="translate(-132,92)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">incidence</text><text text-anchor="middle" data-freq="127" transform="translate(6,-19)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">shall</text><text text-anchor="middle" data-freq="124" transform="translate(-46,-61)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">make</text><text text-anchor="middle" data-freq="122" transform="translate(-30,-93)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">greater</text><text text-anchor="middle" data-freq="121" transform="translate(121,27)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">lens</text><text text-anchor="middle" data-freq="118" transform="translate(55,-48)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">side</text><text text-anchor="middle" data-freq="116" transform="translate(126,-51)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">body</text><text text-anchor="middle" data-freq="116" transform="translate(-93,-78)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">hole</text><text text-anchor="middle" data-freq="114" transform="translate(100,-96)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">motion</text><text text-anchor="middle" data-freq="113" transform="translate(58,120)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">proportion</text><text text-anchor="middle" data-freq="112" transform="translate(129,11)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">sides</text><text text-anchor="middle" data-freq="111" transform="translate(-10,99)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">particles</text><text text-anchor="middle" data-freq="110" transform="translate(-136,51)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">order</text><text text-anchor="middle" data-freq="108" transform="translate(-163,-56)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">surface</text><text text-anchor="middle" data-freq="107" transform="translate(26,108)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">middle</text><text text-anchor="middle" data-freq="104" transform="translate(94,108)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">making</text><text text-anchor="middle" data-freq="104" transform="translate(-199,-45)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">refractions</text><text text-anchor="middle" data-freq="101" transform="translate(-161,35)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">parallel</text><text text-anchor="middle" data-freq="100" transform="translate(-140,-83)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">refracting</text><text text-anchor="middle" data-freq="99" transform="translate(-19,113)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">dark</text><text text-anchor="middle" data-freq="99" transform="translate(117,-29)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">ray</text><text text-anchor="middle" data-freq="98" transform="translate(-13,-105)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">experiment</text><text text-anchor="middle" data-freq="98" transform="translate(-87,-94)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">inches</text><text text-anchor="middle" data-freq="98" transform="translate(-78,-62)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">lines</text><text text-anchor="middle" data-freq="98" transform="translate(74,-104)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">manner</text><text text-anchor="middle" data-freq="98" transform="translate(-156,-71)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">object</text><text text-anchor="middle" data-freq="95" transform="translate(116,-84)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">half</text><text text-anchor="middle" data-freq="95" transform="translate(-47,123)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">medium</text><text text-anchor="middle" data-freq="93" transform="translate(15,-90)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">fall</text><text text-anchor="middle" data-freq="93" transform="translate(210,52)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">spectrum</text><text text-anchor="middle" data-freq="92" transform="translate(180,69)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">great</text><text text-anchor="middle" data-freq="91" transform="translate(-150,83)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">black</text><text text-anchor="middle" data-freq="91" transform="translate(-177,48)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">degrees</text><text text-anchor="middle" data-freq="91" transform="translate(73,-95)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">sun</text><text text-anchor="middle" data-freq="90" transform="translate(164,-26)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(124, 116, 116);">greek</text><text text-anchor="middle" data-freq="89" transform="translate(0,133)rotate(0)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(0, 0, 0);">beam</text><text text-anchor="middle" data-freq="89" transform="translate(-85,-108)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(199, 199, 199);">diameter</text><text text-anchor="middle" data-freq="87" transform="translate(167,-66)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(92, 92, 92);">gutenberg</text><text text-anchor="middle" data-freq="87" transform="translate(71,-81)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">placed</text><text text-anchor="middle" data-freq="111" transform="translate(-81,104)rotate(90)" style="font-size: 12px; font-family: &quot;Palatino Linotype&quot;, &quot;Book Antiqua&quot;, Palatino, serif; fill: rgb(52, 52, 52);">thickness</text></g></svg>
+		</div>
+
+		<hr class="style17">
+
+		<div class="visualization">
+			<iframe style="width: 50%; height: 600px;" src="https://voyant-tools.org/?speed=60&amp;corpus=55b10acc7d6b9a7b6f944bfb264d85f4&amp;view=Bubbles" width="800" height="800"></iframe>
+		</div>
+
+		<hr class="style17">
+
+		<div class="visualization">
+			<h3>Newton's Prism Experiment</h3>
+			<div class="visualization">
+				<img src="prism.png">
+			</div>
+		</div>
+
+		<hr class="style17">
+
+		<div class="header normal">
+			<h3>Ligature Use Across Opticks</h3>
+			<div id="#lig">
+			</div>
+		</div>
+
+		<hr class="style17">
+
+
+		<div class="visualization">
+			<iframe style="width: 50%; height: 600px;" src="https://voyant-tools.org/?mode=corpus&amp;corpus=55b10acc7d6b9a7b6f944bfb264d85f4&amp;view=CollocatesGraph" width="800" height="800"></iframe>
+		</div>
+
+		<hr class="style17">
+
+		<div class="visualization">
+			<h3>Newton's Color Wheel</h3>
+			<div class="visualization">
+				<img src="newtonCircle.png">
+			</div>
+		</div>
+
+
+	</body>
+
+	<script src="fontSize.js"></script>
+	<script src="buttonScript.js"></script>
+	<script src="ligatureAnalyzer.js"></script>
+</html>
